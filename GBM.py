@@ -1,14 +1,3 @@
-
-# geometric browniain motion --  Expected returns for one asset
-
-# Discrete time
-#
-# (S_{t+dt} - S_t) / S_t = (r + σλ) dt + σ sqrt(dt) z_t
-#
-# which can be simplified to
-#
-# (S_{t+dt} - S_t) / S_t = μ dt + σ sqrt(dt) z_t
-
 # z is distributed along the standard normal, mu is mean, sigma is std
 
 import yfinance as yf
