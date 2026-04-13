@@ -82,6 +82,9 @@ Future updates will include:
 * Integrated pipeline for end-to-end simulation
 * Enhanced risk analysis metrics
 
+Code : 
+  backtest_code.py takes in functions defined in MPT,inverse_volatility,risk_parity and tests the effectiveness of each stratergy, while the widget.py has the code for the framework, cuurently runs the GBM.py file, will be updated to multiple assets like in the MC_simulation.py
+
 ---
 
 ## Tech Stack
@@ -109,9 +112,8 @@ Future updates will include:
 
 ## Motivation
 
-This project is aimed at understanding how **different portfolio construction techniques behave under uncertainty**, and how stochastic modeling can be used to estimate forward-looking risk.
+This project is aimed at understanding how **different portfolio construction techniques behave under uncertainty**, and how stochastic modeling can be used to estimate the weights accordingly and give out the best possible forward-looking setting.
 
-It serves as a step toward building a **quantitative research framework for systematic investing**.
 
 ---
 
