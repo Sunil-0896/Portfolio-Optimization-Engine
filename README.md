@@ -95,6 +95,7 @@ Code :
 * SciPy
 * Matplotlib
 * yfinance
+* PyQt6 (Qt Designer)
 
 ---
 
